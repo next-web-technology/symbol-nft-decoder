@@ -1,0 +1,25 @@
+{
+  "name": "symbol-nft-decoder",
+  "version": "0.0.1",
+  "description": "SDK to decode On-Chain-NFT data from Symbol Blockchain",
+  "main": "./build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/next-web-technology/symbol-nft-decoder.git"
+  },
+  "keywords": [
+    "blockchain",
+    "symbol",
+    "nft",
+    "sdk"
+  ],
+  "author": "Next Web Technology",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/next-web-technology/symbol-nft-decoder/issues"
+  },
+  "homepage": "https://github.com/next-web-technology/symbol-nft-decoder#readme"
+}
