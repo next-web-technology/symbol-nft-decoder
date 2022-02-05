@@ -2,7 +2,7 @@
   "name": "symbol-nft-decoder",
   "version": "0.1.0",
   "description": "SDK to decode On-Chain-NFT data from Symbol Blockchain",
-  "main": "./build/index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "jest"
