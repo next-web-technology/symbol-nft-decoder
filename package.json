@@ -25,7 +25,7 @@
     "nft",
     "sdk"
   ],
-  "author": "Next Web Technology",
+  "author": "next-web-technology <yasunori.matsuoka@next-web-technology.net> (https://next-web-technology.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/next-web-technology/symbol-nft-decoder/issues"
