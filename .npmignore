@@ -1,0 +1,15 @@
+# GitHub
+.github/*
+
+# VSCode
+.vscode/*
+
+# node_modules
+node_modules/*
+
+# Source files
+src/*
+
+# Config files
+.eslintrc.js
+*config.*
