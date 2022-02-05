@@ -4,7 +4,9 @@
   "description": "SDK to decode On-Chain-NFT data from Symbol Blockchain",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build:cjs": "tsc --build --clean && tsc --target es5 --module commonjs && mv lib dist/cjs",
+    "build:esm": "tsc --build --clean && tsc --target esnext --module esnext && mv lib dist/esm",
+    "build": "rm -rf dist ; mkdir dist && npm run build:cjs && npm run build:esm",
     "test": "jest"
   },
   "jest": {
