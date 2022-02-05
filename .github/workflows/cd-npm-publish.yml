@@ -19,9 +19,9 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
-          registry: "https://registry.npmjs.org/"
           cache: "npm"
-      - run: npm ci
+          registry-url: "https://registry.npmjs.org/"
+      - run: npm install
       - run: npm run build
       - run: npm test
       - run: npm publish --access=public
