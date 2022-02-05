@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/next-web-technology/symbol-nft-decoder/issues"
   },
-  "homepage": "https://github.com/next-web-technology/symbol-nft-decoder#readme"
+  "homepage": "https://github.com/next-web-technology/symbol-nft-decoder#readme",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
 }
