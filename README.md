@@ -28,9 +28,11 @@ import { comsa } from "symbol-nft-decoder";
   const comsaNft = await comsa.resolve(mosaicIdHex);
   if (comsaNft === undefined) {
     console.error("Some error!");
+    return;
   }
   if (comsaNft.dataUrl === undefined) {
     console.error("The mosaic is not COMSA NFT!");
+    return;
   }
   const dataUrl = comsaNft.dataUrl; // Now, you can use this data for NFT viewer.
 })();
@@ -46,9 +48,11 @@ import { nemberArt } from "symbol-nft-decoder";
   const nemberArtNft = await nemberArt.resolve(mosaicIdHex);
   if (nemberArtNft === undefined) {
     console.error("Some error!");
+    return;
   }
   if (nemberArtNft.ipfsUrl === undefined) {
     console.error("The mosaic is not NEMber Art NFT!");
+    return;
   }
   const ipfsUrl = nemberArtNft.dataUrl; // Now, you can use this URL for NFT viewer.
 })();
@@ -64,9 +68,11 @@ import { nftDrive } from "symbol-nft-decoder";
   const nftDrive = await nftDrive.resolve(mosaicIdHex);
   if (nftDrive === undefined) {
     console.error("Some error!");
+    return;
   }
   if (nftDrive.ipfsUrl === undefined) {
     console.error("The mosaic is not NFT Drive NFT!");
+    return;
   }
   const dataUrl = nftDrive.dataUrl; // Now, you can use this data for NFT viewer.
 })();
