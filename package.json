@@ -1,6 +1,6 @@
 {
   "name": "symbol-nft-decoder",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "SDK to decode On-Chain-NFT data from Symbol Blockchain",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
