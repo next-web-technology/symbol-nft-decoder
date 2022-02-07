@@ -1,10 +1,10 @@
 # symbol-nft-decoder
 
-SDK to decode On-Chain-NFT data from Symbol Blockchain
+SDK to decode NFT data from Symbol Blockchain
 
 ## Note
 
-The quality of this implementation is at a very experimental level at this time, so there is a high possibility that it will not work properly.
+The quality of this implementation is very experimental level at this time, so there is a high possibility that it will not work properly.
 
 ## Install
 
