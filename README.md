@@ -1,5 +1,8 @@
 # symbol-nft-decoder
 
+[![CI Jest](https://github.com/next-web-technology/symbol-nft-decoder/actions/workflows/ci-jest.yml/badge.svg)](https://github.com/next-web-technology/symbol-nft-decoder/actions/workflows/ci-jest.yml)
+[![CD npm publish](https://github.com/next-web-technology/symbol-nft-decoder/actions/workflows/cd-npm-publish.yml/badge.svg)](https://github.com/next-web-technology/symbol-nft-decoder/actions/workflows/cd-npm-publish.yml)
+
 SDK to decode NFT data from Symbol Blockchain
 
 ## Note
